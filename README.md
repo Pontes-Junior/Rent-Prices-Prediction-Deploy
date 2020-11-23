@@ -6,7 +6,7 @@ We want to predict the values of rent prices for houses in the city of São Paul
 
 ## The Goal
 
-One way to solve the problem above is to train a machine learning algorithm and deploy it as a webapp.In order to do that we use the data available at https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent .We have done basic EDA,cleaning of outliers and comparation of models in a  Jupyter notebook that can be accessed in https://github.com/Pontes-Junior/Rent_Prices_Prediction .We use the Flask library to develop a webapp that deploys the model.
+One way to solve the problem above is to train a machine learning algorithm and deploy it as a webapp.In order to do that we use the data available at https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent .We have done basic EDA,cleaning of outliers and comparation of models in a  Jupyter notebook that can be accessed in https://github.com/Pontes-Junior/Rent_Prices_Prediction .We use the Flask library to develop a webapp that deploys the model.The final webapp can be accessed at https://rentpricepredictor.herokuapp.com/.
 
 ## A Machine Learning Approach
 
@@ -17,3 +17,4 @@ The problem of predicting the value of a continuous feature(House Rent Price) is
 - Then to further improve the model we performed parameter tuning,we remark that the tuning was done in a adhoc manner in the same spirit of this lecture https://www.youtube.com/watch?v=0kns1gXLYg4&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=7 .This already improved our model reasonably but is important to note that better   parameters may be found using Randomized Search techniques.
 
 - Lastly we warn the reader that we are aware that in problems with structured data,such as that we are looking at,gradient algorithms such as LightGBM and XGBOOST perform really well.We doesn`t pursue that line of work because we wanted a focus on fast deploying a reasonably good and simple model. 
+
