@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import pickle
+import sklearn
 
 # Loading the dataset
 dt = pd.read_csv('houses_to_rent_v2.csv')
